@@ -21,4 +21,3 @@ jobs:
       - name: Running flask app
         run: python app.py
 
-# YAML data
