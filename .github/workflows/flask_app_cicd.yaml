@@ -25,5 +25,5 @@ jobs:
       - name: Run Docker Image
         run: docker run -d -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/ms-flask-app:${{github.run_number}}
 
-      # - name: Test Docker Image
-      #   run: curl http://localhost:5000
+      - name: Success message 
+        run: echo "docker has been deploy successfully" 
